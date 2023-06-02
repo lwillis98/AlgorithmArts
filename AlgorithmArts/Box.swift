@@ -8,16 +8,32 @@
 import SwiftUI
 
 struct Box: View {
+    let imageName: String
+    
     var body: some View {
-        Rectangle()
-            .foregroundColor(Color("BoxColor"))
-            .frame(width: 300, height:300)
-            .padding()
+        ZStack {
+            
+            
+                RoundedRectangle(cornerRadius:60)
+                    .foregroundColor(Color("BoxColor"))
+                    .frame(width: 250, height:250)
+            
+                    
+            Image(imageName)
+                
+        }
+     
+        .overlay{
+            RoundedRectangle(cornerRadius:60)
+                .stroke(lineWidth: 10)
+        }
     }
 }
                              
 struct Box_Previews: PreviewProvider {
     static var previews: some View {
-        Box()
+        Box(imageName: "GirlEyes")
+        
+    
     }
 }

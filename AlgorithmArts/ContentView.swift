@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView1: View {
     var body: some View {
         ZStack{
         Image("Screenshot 2023-02-01 at 5.58.41 PM")
         .resizable()
         .edgesIgnoringSafeArea(.all)
-            Text("AlgorithmArts")
-                .bold()
+            
+                
+            
         }
         .padding()
     }
@@ -22,7 +23,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView1()
     }
 }
 

@@ -13,16 +13,20 @@ struct DrawingRectangle: View {
     
     
     var body: some View{
-        Rectangle()
+        RoundedRectangle(cornerRadius: 60)
             .foregroundColor(Color("LP background"))
-            .border(.black, width: 10)
-            .padding()    }
-}
-struct DrawingRectangle_Previews: PreviewProvider {
-    static var previews: some View {
-        DrawingRectangle()
+            .overlay{
+                RoundedRectangle(cornerRadius:60)
+                    .stroke(lineWidth: 10)
+            }
         
+    }
+    struct DrawingRectangle_Previews: PreviewProvider {
+        static var previews: some View {
+            DrawingRectangle()
+            
         }
-}
+    }
     
-
+    
+}
