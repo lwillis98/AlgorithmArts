@@ -2,47 +2,52 @@
 //  TemplateView.swift
 //  AlgorithmArts
 //
-//  Created by Lisa Willis on 2/7/23.
+//  Created by Lisa Willis on 6/2/23.
 //
 
 import SwiftUI
 
 struct TemplateView: View {
-    let columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible())
-    ]
-    
-    
-    var body: some View {
-        ZStack{
-            Image("Screenshot 2023-02-01 at 5.58.41 PM")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
-            Text("Select from the following templates")
-            
-            ZStack {
-                DrawingRectangle()
-                LazyVGrid(columns: columns) {
-                    Box()
-                    Box()
-                    Box()
-                    Box()
-                    Box()
-                    Box()
-                }
-            }
-            .frame(width: 800, height: 1200)
+let columns = [
+GridItem(.flexible()),
+GridItem(.flexible())
+]
+var body: some View {
 
+    ZStack{
+        Text("Themes")
+        
+        
+        
+        Image("ColorSplash")
+            .resizable()
+            .edgesIgnoringSafeArea(.all)
+        
+        ZStack {
+            DrawingRectangle()
+            LazyVGrid(columns:columns) {
+                ThemeBox(color1: .forestGreen, color2: .jade, color3: .lightJade, color4: .mintGreen)
+                    .padding()
+                ThemeBox(color1: .vdp, color2: .fuchsia, color3: .algorithmPink, color4: .darkPurple)
+                    .padding()
+                
+                ThemeBox(color1: .forestGreen, color2: .jade, color3: .lightJade, color4: .mintGreen)
+                    .padding()
+                
+                ThemeBox(color1: .vdp, color2: .fuchsia, color3: .algorithmPink, color4: .darkPurple)
+                    .padding()
+                
+                
+                
+            }
         }
+        .frame(width:800, height:1200)
     }
+}
 }
 
 struct TemplateView_Previews: PreviewProvider {
-    static var previews: some View {
-        TemplateView    ()
-        
-    }
+static var previews: some View {
+TemplateView()
 }
-
-
+}

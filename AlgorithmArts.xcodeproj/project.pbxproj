@@ -7,9 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3DAF8F52992F064007F4AD8 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F42992F064007F4AD8 /* TemplateView.swift */; };
+		E30411662A21397C00C721EC /* RandomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30411652A21397C00C721EC /* RandomTimer.swift */; };
+		E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */; };
+		E3118BAD2A2A6C30005DC31D /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAC2A2A6C30005DC31D /* TemplateView.swift */; };
+		E3118BAF2A2A6CDD005DC31D /* ThemeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */; };
+		E3118BB12A2A6D28005DC31D /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */; };
+		E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB22A2A6F44005DC31D /* Profile.swift */; };
+		E3118BB52A2A6FD7005DC31D /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB42A2A6FD7005DC31D /* Selection.swift */; };
+		E31805882A1BAC28001AA227 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805872A1BAC28001AA227 /* ChallengeScreen.swift */; };
+		E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */; };
+		E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318058B2A1BF360001AA227 /* RecordedChallenge.swift */; };
+		E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC6299C20AF008183CE /* DrawingView.swift */; };
+		E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC8299C2290008183CE /* CanvasTestView.swift */; };
+		E3250CCF29A19CE0008183CE /* ColorP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CCE29A19CE0008183CE /* ColorP.swift */; };
+		E3419DC82A04297100C91840 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3419DC72A04297100C91840 /* Launch Screen.storyboard */; };
+		E3419DCC2A04370400C91840 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3419DCB2A04370400C91840 /* SwiftUIView.swift */; };
+		E3419DCE2A0448D400C91840 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3419DCD2A0448D400C91840 /* SplashScreenView.swift */; };
+		E35A7FA52A097AAB0059B252 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7FA42A097AAB0059B252 /* HomePage.swift */; };
+		E3DAF8F52992F064007F4AD8 /* ColoringPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */; };
 		E3DAF8F72992FA29007F4AD8 /* DrawingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */; };
 		E3DAF8F929942B60007F4AD8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F829942B60007F4AD8 /* Box.swift */; };
+		E3DAF8FB29944DC2007F4AD8 /* KeoDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8FA29944DC2007F4AD8 /* KeoDrawing.swift */; };
+		E3DAF8FD299794EE007F4AD8 /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8FC299794EE007F4AD8 /* Save.swift */; };
 		E3FD8E5429919A6600C6FDE8 /* AlgorithmArtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD8E5329919A6600C6FDE8 /* AlgorithmArtsApp.swift */; };
 		E3FD8E5629919A6600C6FDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD8E5529919A6600C6FDE8 /* ContentView.swift */; };
 		E3FD8E5829919A6600C6FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FD8E5729919A6600C6FDE8 /* Assets.xcassets */; };
@@ -37,9 +56,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3DAF8F42992F064007F4AD8 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		E30411652A21397C00C721EC /* RandomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimer.swift; sourceTree = "<group>"; };
+		E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPage.swift; sourceTree = "<group>"; };
+		E3118BAC2A2A6C30005DC31D /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBox.swift; sourceTree = "<group>"; };
+		E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
+		E3118BB22A2A6F44005DC31D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E3118BB42A2A6FD7005DC31D /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		E31805872A1BAC28001AA227 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
+		E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen2.swift; sourceTree = "<group>"; };
+		E318058B2A1BF360001AA227 /* RecordedChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedChallenge.swift; sourceTree = "<group>"; };
+		E3250CC6299C20AF008183CE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		E3250CC8299C2290008183CE /* CanvasTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTestView.swift; sourceTree = "<group>"; };
+		E3250CCE29A19CE0008183CE /* ColorP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorP.swift; sourceTree = "<group>"; };
+		E3250CD229A40551008183CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E3419DC72A04297100C91840 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E3419DCB2A04370400C91840 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E3419DCD2A0448D400C91840 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E35A7FA42A097AAB0059B252 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringPage.swift; sourceTree = "<group>"; };
 		E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingRectangle.swift; sourceTree = "<group>"; };
 		E3DAF8F829942B60007F4AD8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		E3DAF8FA29944DC2007F4AD8 /* KeoDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeoDrawing.swift; sourceTree = "<group>"; };
+		E3DAF8FC299794EE007F4AD8 /* Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
 		E3FD8E5029919A6600C6FDE8 /* AlgorithmArts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmArts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FD8E5329919A6600C6FDE8 /* AlgorithmArtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmArtsApp.swift; sourceTree = "<group>"; };
 		E3FD8E5529919A6600C6FDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +120,9 @@
 		E3FD8E4729919A6500C6FDE8 = {
 			isa = PBXGroup;
 			children = (
+				E3419DC72A04297100C91840 /* Launch Screen.storyboard */,
+				E3419DCB2A04370400C91840 /* SwiftUIView.swift */,
+				E3419DCD2A0448D400C91840 /* SplashScreenView.swift */,
 				E3FD8E5229919A6600C6FDE8 /* AlgorithmArts */,
 				E3FD8E6429919A6700C6FDE8 /* AlgorithmArtsTests */,
 				E3FD8E6E29919A6700C6FDE8 /* AlgorithmArtsUITests */,
@@ -101,11 +143,28 @@
 		E3FD8E5229919A6600C6FDE8 /* AlgorithmArts */ = {
 			isa = PBXGroup;
 			children = (
+				E3250CD229A40551008183CE /* Info.plist */,
 				E3FD8E5329919A6600C6FDE8 /* AlgorithmArtsApp.swift */,
 				E3FD8E5529919A6600C6FDE8 /* ContentView.swift */,
-				E3DAF8F42992F064007F4AD8 /* TemplateView.swift */,
+				E35A7FA42A097AAB0059B252 /* HomePage.swift */,
+				E3118BB42A2A6FD7005DC31D /* Selection.swift */,
+				E3118BB22A2A6F44005DC31D /* Profile.swift */,
+				E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */,
+				E3DAF8FA29944DC2007F4AD8 /* KeoDrawing.swift */,
+				E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */,
+				E3DAF8FC299794EE007F4AD8 /* Save.swift */,
+				E31805872A1BAC28001AA227 /* ChallengeScreen.swift */,
+				E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */,
+				E318058B2A1BF360001AA227 /* RecordedChallenge.swift */,
 				E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */,
 				E3DAF8F829942B60007F4AD8 /* Box.swift */,
+				E3118BAC2A2A6C30005DC31D /* TemplateView.swift */,
+				E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */,
+				E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */,
+				E30411652A21397C00C721EC /* RandomTimer.swift */,
+				E3250CC6299C20AF008183CE /* DrawingView.swift */,
+				E3250CC8299C2290008183CE /* CanvasTestView.swift */,
+				E3250CCE29A19CE0008183CE /* ColorP.swift */,
 				E3FD8E5729919A6600C6FDE8 /* Assets.xcassets */,
 				E3FD8E5929919A6600C6FDE8 /* AlgorithmArts.entitlements */,
 				E3FD8E5A29919A6600C6FDE8 /* Preview Content */,
@@ -202,7 +261,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E3FD8E4F29919A6500C6FDE8 = {
 						CreatedOnToolsVersion = 14.2;
@@ -242,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3419DC82A04297100C91840 /* Launch Screen.storyboard in Resources */,
 				E3FD8E5C29919A6600C6FDE8 /* Preview Assets.xcassets in Resources */,
 				E3FD8E5829919A6600C6FDE8 /* Assets.xcassets in Resources */,
 			);
@@ -269,10 +329,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3FD8E5629919A6600C6FDE8 /* ContentView.swift in Sources */,
+				E3DAF8FD299794EE007F4AD8 /* Save.swift in Sources */,
+				E3419DCC2A04370400C91840 /* SwiftUIView.swift in Sources */,
+				E3118BB12A2A6D28005DC31D /* ExtensionFile.swift in Sources */,
 				E3FD8E5429919A6600C6FDE8 /* AlgorithmArtsApp.swift in Sources */,
+				E31805882A1BAC28001AA227 /* ChallengeScreen.swift in Sources */,
+				E3118BAF2A2A6CDD005DC31D /* ThemeBox.swift in Sources */,
+				E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */,
+				E3250CCF29A19CE0008183CE /* ColorP.swift in Sources */,
+				E35A7FA52A097AAB0059B252 /* HomePage.swift in Sources */,
+				E3118BAD2A2A6C30005DC31D /* TemplateView.swift in Sources */,
+				E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */,
+				E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */,
+				E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */,
+				E3DAF8FB29944DC2007F4AD8 /* KeoDrawing.swift in Sources */,
 				E3DAF8F72992FA29007F4AD8 /* DrawingRectangle.swift in Sources */,
-				E3DAF8F52992F064007F4AD8 /* TemplateView.swift in Sources */,
+				E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */,
+				E3DAF8F52992F064007F4AD8 /* ColoringPage.swift in Sources */,
+				E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */,
 				E3DAF8F929942B60007F4AD8 /* Box.swift in Sources */,
+				E3419DCE2A0448D400C91840 /* SplashScreenView.swift in Sources */,
+				E3118BB52A2A6FD7005DC31D /* Selection.swift in Sources */,
+				E30411662A21397C00C721EC /* RandomTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +420,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -400,6 +479,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -426,17 +506,20 @@
 				CODE_SIGN_ENTITLEMENTS = AlgorithmArts/AlgorithmArts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AlgorithmArts/Preview Content\"";
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgorithmArts/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -464,17 +547,20 @@
 				CODE_SIGN_ENTITLEMENTS = AlgorithmArts/AlgorithmArts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AlgorithmArts/Preview Content\"";
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgorithmArts/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -501,6 +587,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -524,6 +611,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -546,6 +634,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -568,6 +657,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L6DJKMRQZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
