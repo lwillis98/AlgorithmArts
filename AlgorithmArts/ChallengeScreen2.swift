@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ChallengeScreen2: View {
     @State private var bgColor = Color.white
-
+    
     var body: some View {
         ZStack{
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
@@ -65,10 +65,11 @@ struct ChallengeScreen2: View {
         }
         
     }
-    
-    struct ChallengeScreen2_Previews: PreviewProvider {
-        static var previews: some View {
-            ChallengeScreen2()
-        }
+}
+
+struct ChallengeScreen2_Previews: PreviewProvider {
+    static var previews: some View {
+        ChallengeScreen2()
     }
 }
+

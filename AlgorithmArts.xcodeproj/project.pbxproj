@@ -9,15 +9,11 @@
 /* Begin PBXBuildFile section */
 		E30411662A21397C00C721EC /* RandomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30411652A21397C00C721EC /* RandomTimer.swift */; };
 		E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */; };
-		E3118BAD2A2A6C30005DC31D /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAC2A2A6C30005DC31D /* Records.swift */; };
-		E3118BAD2A2A6C30005DC31D /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAC2A2A6C30005DC31D /* TemplateView.swift */; };
-
 		E3118BAF2A2A6CDD005DC31D /* ThemeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */; };
 		E3118BB12A2A6D28005DC31D /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */; };
 		E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB22A2A6F44005DC31D /* Profile.swift */; };
 		E3118BB52A2A6FD7005DC31D /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB42A2A6FD7005DC31D /* Selection.swift */; };
 		E31805882A1BAC28001AA227 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805872A1BAC28001AA227 /* ChallengeScreen.swift */; };
-
 		E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */; };
 		E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318058B2A1BF360001AA227 /* RecordedChallenge.swift */; };
 		E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC6299C20AF008183CE /* DrawingView.swift */; };
@@ -63,14 +59,11 @@
 /* Begin PBXFileReference section */
 		E30411652A21397C00C721EC /* RandomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimer.swift; sourceTree = "<group>"; };
 		E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPage.swift; sourceTree = "<group>"; };
-		E3118BAC2A2A6C30005DC31D /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
-		E3118BAC2A2A6C30005DC31D /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBox.swift; sourceTree = "<group>"; };
 		E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
 		E3118BB22A2A6F44005DC31D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E3118BB42A2A6FD7005DC31D /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		E31805872A1BAC28001AA227 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
-
 		E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen2.swift; sourceTree = "<group>"; };
 		E318058B2A1BF360001AA227 /* RecordedChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedChallenge.swift; sourceTree = "<group>"; };
 		E3250CC6299C20AF008183CE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
@@ -83,7 +76,6 @@
 		E35A7FA42A097AAB0059B252 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		E3648B1B2A32601B00FEB87E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		E3C7CE172A326D6B00020798 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
-
 		E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringPage.swift; sourceTree = "<group>"; };
 		E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingRectangle.swift; sourceTree = "<group>"; };
 		E3DAF8F829942B60007F4AD8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
@@ -166,14 +158,10 @@
 				E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */,
 				E3DAF8FC299794EE007F4AD8 /* Save.swift */,
 				E31805872A1BAC28001AA227 /* ChallengeScreen.swift */,
-				E3118BAC2A2A6C30005DC31D /* Records.swift */,
-				E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */,
-				E3DAF8F829942B60007F4AD8 /* Box.swift */,
 				E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */,
 				E318058B2A1BF360001AA227 /* RecordedChallenge.swift */,
 				E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */,
 				E3DAF8F829942B60007F4AD8 /* Box.swift */,
-				E3118BAC2A2A6C30005DC31D /* TemplateView.swift */,
 				E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */,
 				E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */,
 				E30411652A21397C00C721EC /* RandomTimer.swift */,
@@ -353,7 +341,6 @@
 				E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */,
 				E3250CCF29A19CE0008183CE /* ColorP.swift in Sources */,
 				E35A7FA52A097AAB0059B252 /* HomePage.swift in Sources */,
-				E3118BAD2A2A6C30005DC31D /* Records.swift in Sources */,
 				E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */,
 				E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */,
 				E3DAF8FB29944DC2007F4AD8 /* KeoDrawing.swift in Sources */,
@@ -362,7 +349,6 @@
 				E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */,
 				E3DAF8F52992F064007F4AD8 /* ColoringPage.swift in Sources */,
 				E3C7CE182A326D6B00020798 /* CountdownTimer.swift in Sources */,
-				E3118BAD2A2A6C30005DC31D /* TemplateView.swift in Sources */,
 				E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */,
 				E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */,
 				E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */,

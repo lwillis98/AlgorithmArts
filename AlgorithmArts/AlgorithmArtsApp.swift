@@ -18,17 +18,16 @@ struct AlgorithmArtsApp: App {
                 case .home:
                     HomePage()
                 case .records:
-                    //RecordsView()
-                    HomePage()
+                    ThemeBox(color1: .BPurple, color2: .BPurple, color3: .blue, color4: .blue)
                 case .drawing:
                     KeoDrawing()
                 case .selection:
                     Selection()
+                case .challenge:
+                    ChallengeScreen()
                 }
             }
             .environmentObject(router)
-            
-         //   SplashScreenView()
 
         }
     }

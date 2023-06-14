@@ -64,10 +64,16 @@ struct KeoDrawing: View {
                     .font(.system(size:75.0))
                     .padding()
                     .position(x:850, y:-27)
+                    .onTapGesture {
+                        isErasing = true
+                    }
                 Image (systemName: "paintbrush.pointed.fill")
                     .font(.system(size:75.0))
                     .padding()
                     .position(x:700, y:-427)
+                    .onTapGesture {
+                        isErasing = false
+                    }
                 Image (systemName:"folder.fill")
                     .font(.system(size:75.0))
                     .padding()
@@ -91,15 +97,7 @@ struct KeoDrawing: View {
         }
         
     }
-    
-    
-    
-    struct KeoDrawing_Previews: PreviewProvider {
-        static var previews: some View {
-            KeoDrawing()
-        }
-        
-    }
+
 }
 
 

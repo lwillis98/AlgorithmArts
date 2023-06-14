@@ -15,5 +15,6 @@ class Router: ObservableObject {
         case records
         case drawing
         case selection
+        case challenge
     }
 }

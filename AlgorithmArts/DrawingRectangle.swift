@@ -19,14 +19,12 @@ struct DrawingRectangle: View {
                 RoundedRectangle(cornerRadius:60)
                     .stroke(lineWidth: 10)
             }
+    }
+}
+
+struct DrawingRectangle_Previews: PreviewProvider {
+    static var previews: some View {
+        DrawingRectangle()
         
     }
-    struct DrawingRectangle_Previews: PreviewProvider {
-        static var previews: some View {
-            DrawingRectangle()
-            
-        }
-    }
-    
-    
 }

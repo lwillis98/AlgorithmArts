@@ -13,7 +13,7 @@ struct ChallengeScreen: View {
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
-
+            
             
             RoundedRectangle(cornerRadius: 60)
                 .frame(width:950.5, height:1115)
@@ -34,25 +34,20 @@ struct ChallengeScreen: View {
                         .bold()
                         .font(.system(size:40))
                         .position(x:480, y:60)
-                        Text("10:00 Minutes")
+                    Text("10:00 Minutes")
                         .position(x:480, y:150)
                         .bold()
                         .font(.system(size:60))
                     
                     CountdownTimer()
-
-                  
                 }
-        }
-            
-    
-
-    }
-    
-    
-    struct ChallengeScreen_Previews: PreviewProvider {
-        static var previews: some View {
-            ChallengeScreen()
         }
     }
 }
+
+struct ChallengeScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        ChallengeScreen()
+    }
+}
+

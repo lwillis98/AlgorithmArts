@@ -33,7 +33,5 @@ struct Box: View {
 struct Box_Previews: PreviewProvider {
     static var previews: some View {
         Box(imageName: "GirlEyes")
-        
-    
     }
 }

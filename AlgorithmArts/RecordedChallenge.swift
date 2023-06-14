@@ -56,10 +56,11 @@ struct RecordedChallenge: View {
             
         }
     }
-    
-    struct RecordedChallenge_Previews: PreviewProvider {
-        static var previews: some View {
-            RecordedChallenge()
-        }
+}
+
+struct RecordedChallenge_Previews: PreviewProvider {
+    static var previews: some View {
+        RecordedChallenge()
     }
 }
+

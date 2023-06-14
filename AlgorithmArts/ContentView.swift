@@ -13,9 +13,6 @@ struct ContentView1: View {
         Image("Screenshot 2023-02-01 at 5.58.41 PM")
         .resizable()
         .edgesIgnoringSafeArea(.all)
-            
-                
-            
         }
         .padding()
     }

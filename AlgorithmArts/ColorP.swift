@@ -19,10 +19,10 @@ struct ColorPView: View {
                 .padding(70)
         }
     }
-    
-    struct ColorPView_Previews: PreviewProvider {
-        static var previews: some View {
-            ColorPView()
-        }
+}
+
+struct ColorPView_Previews: PreviewProvider {
+    static var previews: some View {
+        ColorPView()
     }
 }
