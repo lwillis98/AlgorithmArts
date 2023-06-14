@@ -10,12 +10,7 @@ import SwiftUI
 struct ChallengeScreen: View {
     var body: some View {
         ZStack{
-            VStack{
-                HStack{
-                    BackButtonView()
-                    Spacer()
-                }
-            }
+           
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
@@ -48,6 +43,13 @@ struct ChallengeScreen: View {
                     
                     CountdownTimer()
                     Spacer()
+                    VStack{
+                        HStack{
+                            BackButtonView()
+                            Spacer()
+                        }
+                        Spacer()
+                    }
                 }
         }
     }
