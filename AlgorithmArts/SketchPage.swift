@@ -75,6 +75,13 @@ struct Sketchpage: View {
                     .opacity(0.55)
                     .frame(width: 1000, height: 1000)
                 
+                //                ColorPicker ("", selection: $bgColor)
+                //                    //.font(.system(size:159))
+                //
+                //                    .scaleEffect(CGSize(width: 4, height: 4))
+                //                    .labelsHidden()
+                //                    .padding()
+                // Text("Would you like to save your work \("Folder.fill") – thank you!")
                 
             }
             
