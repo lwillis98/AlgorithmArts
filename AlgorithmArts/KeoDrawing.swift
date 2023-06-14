@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 
 struct KeoDrawing: View {
-    
+    @EnvironmentObject var router: Router
     @State private var bgColor = Color.white
     
     @State var canvas = PKCanvasView()
@@ -36,9 +36,7 @@ struct KeoDrawing: View {
                 }
             VStack {
                 HStack {
-                    Image(systemName:"lessthan")
-                        .font(.system(size: 100))
-                        .padding()
+                    BackButtonView()
                     //<<<<<<< HEAD
                     //
                     //                    Spacer()

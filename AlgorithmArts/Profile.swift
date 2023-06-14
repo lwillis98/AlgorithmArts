@@ -27,6 +27,10 @@ struct Profile: View {
                         .stroke(lineWidth: 10)
                 }
             VStack {
+                HStack{
+                    BackButtonView()
+                    Spacer()
+                }
                 ZStack {
                     RoundedRectangle(cornerRadius: 60)
                         .frame(width: 600, height:150)

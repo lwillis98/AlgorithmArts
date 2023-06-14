@@ -25,6 +25,8 @@ struct AlgorithmArtsApp: App {
                     Selection()
                 case .challenge:
                     ChallengeScreen()
+                case .profile:
+                    Profile()
                 }
             }
             .environmentObject(router)

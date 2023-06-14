@@ -63,7 +63,7 @@ struct HomePage: View {
                 .font(.system(size:150))
                 .position(x:500, y:1200)
                 .onTapGesture {
-                    router.currentScreen = .records
+                    router.currentScreen = .profile
                 }
         }
     }

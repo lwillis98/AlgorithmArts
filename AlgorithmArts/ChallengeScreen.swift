@@ -10,6 +10,12 @@ import SwiftUI
 struct ChallengeScreen: View {
     var body: some View {
         ZStack{
+            VStack{
+                HStack{
+                    BackButtonView()
+                    Spacer()
+                }
+            }
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
@@ -19,16 +25,16 @@ struct ChallengeScreen: View {
                 .frame(width:950.5, height:1115)
                 .foregroundColor(Color("LP background"))
                 .overlay {
-                    RoundedRectangle(cornerRadius:60)
-                        .stroke(lineWidth: 8.5)
-                    RoundedRectangle(cornerRadius: 60)
-                        .frame(width:780, height:190)
-                        .foregroundColor(Color("LP background"))
-                        .overlay {
-                            RoundedRectangle(cornerRadius: 60)
-                                .stroke(lineWidth: 10)
-                        }.position(x:481, y:120)
-                    
+//                    RoundedRectangle(cornerRadius:60)
+//                        .stroke(lineWidth: 8.5)
+//                    RoundedRectangle(cornerRadius: 60)
+//                        .frame(width:780, height:190)
+//                        .foregroundColor(Color("LP background"))
+//                        .overlay {
+//                            RoundedRectangle(cornerRadius: 60)
+//                                .stroke(lineWidth: 10)
+//                        }.position(x:481, y:120)
+//
                     
                     Text("A puppy eating pizza while surfing")
                         .bold()
@@ -40,6 +46,7 @@ struct ChallengeScreen: View {
                         .font(.system(size:60))
                     
                     CountdownTimer()
+                    Spacer()
                 }
         }
     }

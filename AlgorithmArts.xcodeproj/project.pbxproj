@@ -25,6 +25,7 @@
 		E35A7FA52A097AAB0059B252 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7FA42A097AAB0059B252 /* HomePage.swift */; };
 		E3648B1C2A32601B00FEB87E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3648B1B2A32601B00FEB87E /* Router.swift */; };
 		E3C7CE182A326D6B00020798 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C7CE172A326D6B00020798 /* CountdownTimer.swift */; };
+		E3C7CE1A2A3A509D00020798 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C7CE192A3A509D00020798 /* BackButtonView.swift */; };
 		E3DAF8F52992F064007F4AD8 /* ColoringPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */; };
 		E3DAF8F72992FA29007F4AD8 /* DrawingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */; };
 		E3DAF8F929942B60007F4AD8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF8F829942B60007F4AD8 /* Box.swift */; };
@@ -76,6 +77,7 @@
 		E35A7FA42A097AAB0059B252 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		E3648B1B2A32601B00FEB87E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		E3C7CE172A326D6B00020798 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		E3C7CE192A3A509D00020798 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 		E3DAF8F42992F064007F4AD8 /* ColoringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringPage.swift; sourceTree = "<group>"; };
 		E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingRectangle.swift; sourceTree = "<group>"; };
 		E3DAF8F829942B60007F4AD8 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				E3FD8E5329919A6600C6FDE8 /* AlgorithmArtsApp.swift */,
 				E3FD8E5529919A6600C6FDE8 /* ContentView.swift */,
 				E35A7FA42A097AAB0059B252 /* HomePage.swift */,
+				E3C7CE192A3A509D00020798 /* BackButtonView.swift */,
 				E3C7CE172A326D6B00020798 /* CountdownTimer.swift */,
 				E3118BB42A2A6FD7005DC31D /* Selection.swift */,
 				E3118BB22A2A6F44005DC31D /* Profile.swift */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3FD8E5629919A6600C6FDE8 /* ContentView.swift in Sources */,
+				E3C7CE1A2A3A509D00020798 /* BackButtonView.swift in Sources */,
 				E3DAF8FD299794EE007F4AD8 /* Save.swift in Sources */,
 				E3419DCC2A04370400C91840 /* SwiftUIView.swift in Sources */,
 				E3118BB12A2A6D28005DC31D /* ExtensionFile.swift in Sources */,
