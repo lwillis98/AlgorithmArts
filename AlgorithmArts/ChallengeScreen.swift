@@ -6,8 +6,13 @@
 //
 
 import SwiftUI
+import PencilKit
 
 struct ChallengeScreen: View {
+    @State private var bgColor = Color.white
+    
+    @State var canvas = PKCanvasView()
+    @State var isErasing = false
     var body: some View {
         ZStack{
            
@@ -31,23 +36,50 @@ struct ChallengeScreen: View {
 //                        }.position(x:481, y:120)
 //
                     
-                    Text("A puppy eating pizza while surfing")
-                        .bold()
-                        .font(.system(size:40))
-                        .position(x:480, y:60)
-                    Text("10:00 Minutes")
-                        .position(x:480, y:150)
-                        .bold()
-                        .font(.system(size:60))
-                        .foregroundColor(.BPurple)
-                    
-                    CountdownTimer()
+                   
                     Spacer()
                     VStack{
                         HStack{
                             BackButtonView()
-                            Spacer()
+                            Image (systemName: "eraser.fill")
+                                .font(.system(size:75.0))
+                                .padding()
+                               
+                                .onTapGesture {
+                                    isErasing = true
+                                }
+                            Image (systemName: "paintbrush.pointed.fill")
+                                .font(.system(size:75.0))
+                                .padding()
+                               
+                                .onTapGesture {
+                                    isErasing = false
+                                }
+                            Image (systemName:"folder.fill")
+                                .font(.system(size:75.0))
+                                .padding()
+                            ColorPicker("Set The Background Color",selection:$bgColor)
+                                                .scaleEffect(CGSize(width:4, height:4))
+                                                .labelsHidden()
+                                                .font(.system(size:80))
+                                                .padding(70)
+                                               
                         }
+                        HStack{
+                            Text("A puppy eating pizza while surfing")
+                                .bold()
+                                .font(.system(size:40))
+                               
+//                            Text("10:00 Minutes")
+//                             
+//                                .bold()
+//                                .font(.system(size:60))
+//                                .foregroundColor(.BPurple)
+                            
+//                            CountdownTimer()
+                        }
+                        DrawingView(canvas: $canvas, color: $bgColor, isErasing: $isErasing)
+                        
                         Spacer()
                     }
                 }
