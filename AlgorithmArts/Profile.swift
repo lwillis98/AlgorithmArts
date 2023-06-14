@@ -18,7 +18,12 @@ struct Profile: View {
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
-            
+            HStack{
+                BackButtonView()
+                    .position(x:70,y:40)
+                    Spacer()
+                    
+            }
             RoundedRectangle(cornerRadius: 60)
                 .frame(width:850 ,height: 1150)
                 .foregroundColor(Color("LP background"))
@@ -26,11 +31,8 @@ struct Profile: View {
                     RoundedRectangle(cornerRadius: 60)
                         .stroke(lineWidth: 10)
                 }
+            
             VStack {
-                HStack{
-                    BackButtonView()
-                    Spacer()
-                }
                 ZStack {
                     RoundedRectangle(cornerRadius: 60)
                         .frame(width: 600, height:150)

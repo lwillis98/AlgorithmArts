@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ChallengeScreen2: View {
+struct Records1: View {
     @State private var bgColor = Color.white
     
     var body: some View {
@@ -67,9 +67,9 @@ struct ChallengeScreen2: View {
     }
 }
 
-struct ChallengeScreen2_Previews: PreviewProvider {
+struct Records1_Previews: PreviewProvider {
     static var previews: some View {
-        ChallengeScreen2()
+        Records1()
     }
 }
 

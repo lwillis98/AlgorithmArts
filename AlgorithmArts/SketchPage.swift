@@ -30,8 +30,7 @@ struct Sketchpage: View {
 
             VStack{
                 HStack{
-                    Image(systemName:"lessthan")
-                        .font(.system(size:65.0))
+                  BackButtonView()
                     
                         .padding()
                     Spacer()

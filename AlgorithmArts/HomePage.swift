@@ -19,10 +19,10 @@ struct HomePage: View {
                     RoundedRectangle(cornerRadius:60)
                         .stroke(lineWidth: 10)
                         .frame(width: 700, height:900)
-                        .position(x:500,y:890)
+                        .position(x:500,y:800)
                     RoundedRectangle(cornerRadius:60)
                         .frame(width:700, height:900)
-                        .position(x:500, y:890)
+                        .position(x:500, y:800)
                         .foregroundColor(Color("LP background"))
                 }
             
@@ -61,7 +61,7 @@ struct HomePage: View {
             
             Image(systemName:"person.circle")
                 .font(.system(size:150))
-                .position(x:500, y:1200)
+                .position(x:500, y:1150)
                 .onTapGesture {
                     router.currentScreen = .profile
                 }

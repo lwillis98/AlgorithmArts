@@ -40,9 +40,8 @@ struct ColoringPageView: View {
                 }
             }
             .frame(width: 800, height: 1200)
-            Image(systemName:"lessthan")
-                .font(.system(size:100))
-                .position(x:70, y:25)
+            BackButtonView()
+                .position(x:70, y:28)
         
             
             }

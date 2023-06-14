@@ -32,10 +32,10 @@ var body: some View {
       
         VStack{
             HStack{
-                Image(systemName:"lessthan")
-                    .font(.system(size:80))
+           BackButtonView()
                 
-                    .padding()
+                
+                    
                 Spacer()
                 
                 Spacer()

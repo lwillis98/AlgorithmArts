@@ -14,7 +14,7 @@
 		E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB22A2A6F44005DC31D /* Profile.swift */; };
 		E3118BB52A2A6FD7005DC31D /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB42A2A6FD7005DC31D /* Selection.swift */; };
 		E31805882A1BAC28001AA227 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805872A1BAC28001AA227 /* ChallengeScreen.swift */; };
-		E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */; };
+		E318058A2A1BAC3F001AA227 /* Records1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805892A1BAC3F001AA227 /* Records1.swift */; };
 		E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318058B2A1BF360001AA227 /* RecordedChallenge.swift */; };
 		E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC6299C20AF008183CE /* DrawingView.swift */; };
 		E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC8299C2290008183CE /* CanvasTestView.swift */; };
@@ -65,7 +65,7 @@
 		E3118BB22A2A6F44005DC31D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E3118BB42A2A6FD7005DC31D /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		E31805872A1BAC28001AA227 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
-		E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen2.swift; sourceTree = "<group>"; };
+		E31805892A1BAC3F001AA227 /* Records1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records1.swift; sourceTree = "<group>"; };
 		E318058B2A1BF360001AA227 /* RecordedChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedChallenge.swift; sourceTree = "<group>"; };
 		E3250CC6299C20AF008183CE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		E3250CC8299C2290008183CE /* CanvasTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTestView.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 				E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */,
 				E3DAF8FC299794EE007F4AD8 /* Save.swift */,
 				E31805872A1BAC28001AA227 /* ChallengeScreen.swift */,
-				E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */,
+				E31805892A1BAC3F001AA227 /* Records1.swift */,
 				E318058B2A1BF360001AA227 /* RecordedChallenge.swift */,
 				E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */,
 				E3DAF8F829942B60007F4AD8 /* Box.swift */,
@@ -355,7 +355,7 @@
 				E3C7CE182A326D6B00020798 /* CountdownTimer.swift in Sources */,
 				E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */,
 				E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */,
-				E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */,
+				E318058A2A1BAC3F001AA227 /* Records1.swift in Sources */,
 				E3DAF8FB29944DC2007F4AD8 /* KeoDrawing.swift in Sources */,
 				E3DAF8F72992FA29007F4AD8 /* DrawingRectangle.swift in Sources */,
 				E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */,
