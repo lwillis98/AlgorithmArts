@@ -18,7 +18,8 @@ struct AlgorithmArtsApp: App {
                 case .home:
                     HomePage()
                 case .records:
-                    RecordsView()
+                    //RecordsView()
+                    HomePage()
                 case .drawing:
                     KeoDrawing()
                 case .selection:
@@ -28,6 +29,7 @@ struct AlgorithmArtsApp: App {
             .environmentObject(router)
             
          //   SplashScreenView()
+
         }
     }
 }

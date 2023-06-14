@@ -14,6 +14,7 @@ struct KeoDrawing: View {
     @State var canvas = PKCanvasView()
     @State var isErasing = false
     
+    
     var body: some View{
         ZStack{
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
@@ -27,6 +28,7 @@ struct KeoDrawing: View {
                 .resizable()
                 .frame(width:700, height:1100)
             DrawingView(canvas: $canvas, color: $bgColor, isErasing: $isErasing)
+            
                 .overlay{
                     RoundedRectangle(cornerRadius:340)
                         .stroke(lineWidth: 10)
@@ -36,37 +38,55 @@ struct KeoDrawing: View {
                     Image(systemName:"lessthan")
                         .font(.system(size: 100))
                         .padding()
+                    //<<<<<<< HEAD
+                    //
+                    //                    Spacer()
+                    //
+                    //                Spacer()
+                    //                Image (systemName: "eraser.fill")
+                    //                    .font(.system(size:65.0))
+                    //                    .padding()
+                    //
+                    //                Image (systemName: "paintbrush.pointed.fill")
+                    //                    .font(.system(size:65.0))
+                    //                    .padding()
+                    //
+                    //                Image (systemName:"folder.fill")
+                    //                    .font(.system(size:65.0))
+                    //                    .padding()
+                    //
+                    //=======
                     
                     Spacer()
-                
+                }
                 Spacer()
                 Image (systemName: "eraser.fill")
-                    .font(.system(size:65.0))
+                    .font(.system(size:75.0))
                     .padding()
-                    
+                    .position(x:850, y:-27)
                 Image (systemName: "paintbrush.pointed.fill")
-                    .font(.system(size:65.0))
+                    .font(.system(size:75.0))
                     .padding()
-                    
+                    .position(x:700, y:-427)
                 Image (systemName:"folder.fill")
-                    .font(.system(size:65.0))
+                    .font(.system(size:75.0))
                     .padding()
-                    
+                    .position(x:250, y:-850)
+                //>>>>>>> main
                 Spacer()
             }
             Spacer()
             
-        }
+            
+            
             HStack{
                 Spacer()
-                ColorPicker ("", selection: $bgColor)
-                //.font(.system(size:159))
-                    .padding()
-                
-                    .scaleEffect(CGSize(width: 2, height: 2))
+                ColorPicker("Set The Background Color",selection:$bgColor)
+                    .scaleEffect(CGSize(width:4, height:4))
                     .labelsHidden()
-                    .padding(.trailing, 20)
-                    .position(x:400, y:50)
+                    .font(.system(size:80))
+                    .padding(70)
+                    .position(x:850, y:1170)
             }
         }
         
@@ -78,6 +98,15 @@ struct KeoDrawing: View {
         static var previews: some View {
             KeoDrawing()
         }
+        
     }
-    
 }
+
+
+struct KeoDrawing_Previews: PreviewProvider {
+    static var previews: some View {
+        KeoDrawing()
+    }
+}
+
+

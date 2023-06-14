@@ -19,6 +19,7 @@ import Foundation
     static let Purple = Color ("Purple")
     static let LightPurple = Color ("LightPurple")
     static let BPurple = Color ("BPurple")
+
     static let darkPurple = Color ("Dark Purple")
     static let BoxColor = Color ("BoxColor")
 

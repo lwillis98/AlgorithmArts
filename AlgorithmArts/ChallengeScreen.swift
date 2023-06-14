@@ -13,7 +13,7 @@ struct ChallengeScreen: View {
             Image("Screenshot 2023-02-01 at 5.58.41 PM")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
-           
+
             
             RoundedRectangle(cornerRadius: 60)
                 .frame(width:950.5, height:1115)
@@ -40,6 +40,7 @@ struct ChallengeScreen: View {
                         .font(.system(size:60))
                     
                     CountdownTimer()
+
                   
                 }
         }

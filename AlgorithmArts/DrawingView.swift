@@ -10,6 +10,7 @@ import PencilKit
 import SwiftUI
 
 struct DrawingView: UIViewRepresentable {
+    
     @Binding var canvas:PKCanvasView
     @Binding var color: Color
     @Binding var isErasing: Bool
@@ -28,6 +29,5 @@ struct DrawingView: UIViewRepresentable {
             canvas.tool = PKInkingTool(.marker, color: UIColor(color))
         }
     }
-    
 }
 
