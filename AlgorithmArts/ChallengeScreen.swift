@@ -44,6 +44,7 @@ struct ChallengeScreen: View {
                         .position(x:480, y:150)
                         .bold()
                         .font(.system(size:60))
+                        .foregroundColor(.BPurple)
                     
                     CountdownTimer()
                     Spacer()
