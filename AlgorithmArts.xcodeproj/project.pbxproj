@@ -15,8 +15,6 @@
 		E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB22A2A6F44005DC31D /* Profile.swift */; };
 		E3118BB52A2A6FD7005DC31D /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3118BB42A2A6FD7005DC31D /* Selection.swift */; };
 		E31805882A1BAC28001AA227 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805872A1BAC28001AA227 /* ChallengeScreen.swift */; };
-		E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */; };
-		E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318058B2A1BF360001AA227 /* RecordedChallenge.swift */; };
 		E3250CC7299C20AF008183CE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC6299C20AF008183CE /* DrawingView.swift */; };
 		E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CC8299C2290008183CE /* CanvasTestView.swift */; };
 		E3250CCF29A19CE0008183CE /* ColorP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3250CCE29A19CE0008183CE /* ColorP.swift */; };
@@ -66,8 +64,6 @@
 		E3118BB22A2A6F44005DC31D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E3118BB42A2A6FD7005DC31D /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		E31805872A1BAC28001AA227 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
-		E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen2.swift; sourceTree = "<group>"; };
-		E318058B2A1BF360001AA227 /* RecordedChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedChallenge.swift; sourceTree = "<group>"; };
 		E3250CC6299C20AF008183CE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		E3250CC8299C2290008183CE /* CanvasTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTestView.swift; sourceTree = "<group>"; };
 		E3250CCE29A19CE0008183CE /* ColorP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorP.swift; sourceTree = "<group>"; };
@@ -160,11 +156,9 @@
 				E3118BAA2A2A6BB8005DC31D /* SketchPage.swift */,
 				E3DAF8FC299794EE007F4AD8 /* Save.swift */,
 				E31805872A1BAC28001AA227 /* ChallengeScreen.swift */,
-				E31805892A1BAC3F001AA227 /* ChallengeScreen2.swift */,
-				E318058B2A1BF360001AA227 /* RecordedChallenge.swift */,
+				E3118BAC2A2A6C30005DC31D /* Records.swift */,
 				E3DAF8F62992FA29007F4AD8 /* DrawingRectangle.swift */,
 				E3DAF8F829942B60007F4AD8 /* Box.swift */,
-				E3118BAC2A2A6C30005DC31D /* Records.swift */,
 				E3118BAE2A2A6CDD005DC31D /* ThemeBox.swift */,
 				E3118BB02A2A6D28005DC31D /* ExtensionFile.swift */,
 				E30411652A21397C00C721EC /* RandomTimer.swift */,
@@ -347,13 +341,11 @@
 				E3118BAD2A2A6C30005DC31D /* Records.swift in Sources */,
 				E3118BAB2A2A6BB8005DC31D /* SketchPage.swift in Sources */,
 				E3250CC9299C2290008183CE /* CanvasTestView.swift in Sources */,
-				E318058A2A1BAC3F001AA227 /* ChallengeScreen2.swift in Sources */,
 				E3DAF8FB29944DC2007F4AD8 /* KeoDrawing.swift in Sources */,
 				E3DAF8F72992FA29007F4AD8 /* DrawingRectangle.swift in Sources */,
 				E3648B1C2A32601B00FEB87E /* Router.swift in Sources */,
 				E3118BB32A2A6F44005DC31D /* Profile.swift in Sources */,
 				E3DAF8F52992F064007F4AD8 /* ColoringPage.swift in Sources */,
-				E318058C2A1BF360001AA227 /* RecordedChallenge.swift in Sources */,
 				E3C7CE182A326D6B00020798 /* CountdownTimer.swift in Sources */,
 				E3DAF8F929942B60007F4AD8 /* Box.swift in Sources */,
 				E3419DCE2A0448D400C91840 /* SplashScreenView.swift in Sources */,

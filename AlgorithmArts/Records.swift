@@ -38,7 +38,7 @@ struct RecordsView: View {
                                         RoundedRectangle(cornerRadius: 60)
                                             .stroke(lineWidth: 10)
                                     }
-                                    .position(x:400, y:500)
+                                    .position(x:400, y:300)
                                 
                                 Text("Themes")
                                     .font(.system(size:60))

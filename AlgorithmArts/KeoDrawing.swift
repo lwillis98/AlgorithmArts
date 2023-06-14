@@ -22,7 +22,7 @@ struct KeoDrawing: View {
             RoundedRectangle(cornerRadius: 340)
             
                 .foregroundColor(Color("LP background"))
-                
+            
             Image("Keo")
                 .resizable()
                 .frame(width:700, height:1100)
@@ -36,35 +36,37 @@ struct KeoDrawing: View {
                     Image(systemName:"lessthan")
                         .font(.system(size: 100))
                         .padding()
-                        
+                    
                     Spacer()
-                }
+                
                 Spacer()
                 Image (systemName: "eraser.fill")
-                    .font(.system(size:75.0))
+                    .font(.system(size:65.0))
                     .padding()
-                    .position(x:850, y:-27)
+                    
                 Image (systemName: "paintbrush.pointed.fill")
-                    .font(.system(size:75.0))
+                    .font(.system(size:65.0))
                     .padding()
-                    .position(x:700, y:-427)
+                    
                 Image (systemName:"folder.fill")
-                    .font(.system(size:75.0))
+                    .font(.system(size:65.0))
                     .padding()
-                    .position(x:250, y:-850)
+                    
                 Spacer()
             }
             Spacer()
             
-            
+        }
             HStack{
                 Spacer()
-                ColorPicker("Set The Background Color",selection:$bgColor)
-                    .scaleEffect(CGSize(width:4, height:4))
+                ColorPicker ("", selection: $bgColor)
+                //.font(.system(size:159))
+                    .padding()
+                
+                    .scaleEffect(CGSize(width: 2, height: 2))
                     .labelsHidden()
-                    .font(.system(size:80))
-                    .padding(70)
-                    .position(x:850, y:1170)
+                    .padding(.trailing, 20)
+                    .position(x:400, y:50)
             }
         }
         

@@ -17,25 +17,28 @@ var body: some View {
             .resizable()
             .edgesIgnoringSafeArea( .all)
         RoundedRectangle(cornerRadius: 340)
+        
             .foregroundColor(Color("LP background"))
-            
+            .overlay{
+                RoundedRectangle(cornerRadius:340)
+                    .stroke(lineWidth: 10)
+                
+            }
         
         Image("Keo")
             .resizable()
             .frame(width:700, height:1100)
-            .overlay{
-                RoundedRectangle(cornerRadius:340)
-                    .stroke(lineWidth: 10)
-            }
+      
         VStack{
             HStack{
                 Image(systemName:"lessthan")
-                    .font(.system(size:65.0))
+                    .font(.system(size:80))
                 
                     .padding()
                 Spacer()
                 
                 Spacer()
+                
                 Image (systemName: "folder.fill")
                     .onTapGesture {
                         isSaving = true
@@ -49,10 +52,17 @@ var body: some View {
                     .font(.system(size:65.0))
                     .padding()
                 // .position(x:750, y:-525)
-                
+               
                 
                 Spacer()
 
+                ColorPicker ("", selection: $bgColor)
+                //.font(.system(size:159))
+                    .padding()
+                
+                    .scaleEffect(CGSize(width: 2, height: 2))
+                    .labelsHidden()
+                    .padding(.trailing, 20)
                 
             }
             Spacer()
@@ -61,9 +71,6 @@ var body: some View {
                 .padding()
                 .opacity(0.55)
                 .frame(width: 1000, height: 00)
-            
-            ColorPicker ("Set the background color", selection: $bgColor)
-                .font(.system(size:65.0))
 // Text("Would you like to save your work (Folder.fill) – thank you!")
 }
 }
