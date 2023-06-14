@@ -9,6 +9,7 @@ import SwiftUI
 import UIKit
 
 struct KeoDrawing: View {
+    
     @State private var bgColor = Color.white
     
     @State var canvas = PKCanvasView()
