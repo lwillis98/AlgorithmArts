@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4EB23A6-9CA4-419A-9891-62B5DA95B234"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2B1AE22-1DE8-48E4-A1AD-49C332C759F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmArts/AlgorithmArtsApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C2B1AE22-1DE8-48E4-A1AD-49C332C759F8 - 105726227a943771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C2B1AE22-1DE8-48E4-A1AD-49C332C759F8 - 396de3d0c3ba6fb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; AlgorithmArts.SplashScreenView in AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C2B1AE22-1DE8-48E4-A1AD-49C332C759F8 - 105726227a9434b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "C2B1AE22-1DE8-48E4-A1AD-49C332C759F8 - deab068f6a4a87c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43945F13-C8CD-4D59-9115-8F6BD6F701CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmArts/AlgorithmArtsApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89D1ED98-91A5-4FB8-8D15-DD4D9C6A5FFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmArts/AlgorithmArtsApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "89D1ED98-91A5-4FB8-8D15-DD4D9C6A5FFF - deab068f6a4a87c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "89D1ED98-91A5-4FB8-8D15-DD4D9C6A5FFF - 2ad484d1367c387b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;AlgorithmArts.HomePage, AlgorithmArts.RecordsView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in AlgorithmArts.AlgorithmArtsApp.body.getter : some"
+                  moduleName = "AlgorithmArts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lisawillis/Desktop/AlgorithmArts/AlgorithmArts/AlgorithmArtsApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
