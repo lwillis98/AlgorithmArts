@@ -72,21 +72,21 @@ struct KeoDrawing: View {
                 
                 }
                 Spacer()
-                Image (systemName: "eraser.fill")
+              //  Image (systemName: "eraser.fill")
                     .font(.system(size:75.0))
                     .padding()
-                    .position(x:850, y:-27)`
+                    .position(x:850, y:-27)
                     .onTapGesture {
                         isErasing = true
                     }
-                Image (systemName: "paintbrush.pointed.fill")
+                //Image (systemName: "paintbrush.pointed.fill")
                     .font(.system(size:75.0))
                     .padding()
                     .position(x:700, y:-427)
                     .onTapGesture {
                         isErasing = false
                     }
-                Image (systemName:"folder.fill")
+                //Image (systemName:"folder.fill")
                     .font(.system(size:75.0))
                     .padding()
                     .position(x:250, y:-850)
@@ -99,7 +99,7 @@ struct KeoDrawing: View {
             
             HStack{
                 Spacer()
-                ColorPicker("Set The Background Color",selection:$bgColor)
+               // ColorPicker("Set The Background Color",selection:$bgColor)
                     .scaleEffect(CGSize(width:4, height:4))
                     .labelsHidden()
                     .font(.system(size:80))
