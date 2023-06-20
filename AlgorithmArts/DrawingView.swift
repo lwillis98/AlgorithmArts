@@ -29,5 +29,5 @@ struct DrawingView: UIViewRepresentable {
             canvas.tool = PKInkingTool(.marker, color: UIColor(color))
         }
     }
-}
+} 
 
